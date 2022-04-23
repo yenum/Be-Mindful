@@ -1,7 +1,7 @@
 {
-  "name": "cook-buddy",
+  "name": "bemindful",
   "version": "1.0.0",
-  "description": "A digital recipe journal that allows users to manage their favourite home recipes online",
+  "description": "A digital app that allows users record their thoughts easily on the go",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server/server.js"
@@ -16,7 +16,7 @@
     "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.10",
+    "mongoose": "^6.3.1",
     "nodemon": "^2.0.15"
   }
 }

@@ -12,8 +12,8 @@ app.use(express.json());
 dotenv.config();
 connectDB();
 
-app.use("/api/notes", require("./routes/notesRoutes"));
-app.use("/api/users", require("./routes/userRoutes"));
+app.use("/api/notes", require("./routes/noteRoutes.js"));
+app.use("/api/users", require("./routes/userRoutes.js"));
 
 const port = process.env.PORT || 5000;
 
