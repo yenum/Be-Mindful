@@ -32,6 +32,8 @@ test('renders a sign up and sign in button', () => {
     expect(signupandinButton[1]).toBeInTheDocument()
 })
 
+
+
 test('renders a button that reads sign in', () => {
     render(<Homepage/>)
     const signinButtonText = screen.getByText(/Sign In/i)
