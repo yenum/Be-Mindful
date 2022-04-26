@@ -1,8 +1,10 @@
+import React from 'react';
 import './App.css';
+import Homepage from './pages/HomePage/Homepage';
 
 function App() {
   return (
-  <div>Welcome to Idea Pad</div> 
+  <Homepage />
   );
 }
 
