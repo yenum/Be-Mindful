@@ -1,0 +1,77 @@
+.ideaimage {
+/* position: absolute;
+width: 425px;
+height: 601px;
+left: 897px;
+top: 156px; */
+margin-left: auto;
+}
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.inner-container {
+    width: 60%;
+    display: flex;
+} 
+
+.splash-message {
+    margin: auto; 
+}
+
+
+.title {
+/* position: absolute;
+width: 454.84px;
+height: 100px;
+left: 211px;
+top: 371px; */
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 77.4194px;
+line-height: 91px;
+
+color: #14213D;
+}
+
+.description {
+/* position: absolute;
+width: 523.43px;
+height: 104px;
+left: 208px;
+top: 491px; */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36.5714px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.signup {
+width: 319px;
+height: 86px;
+margin-right: 20px;
+}
+
+.signin {
+width: 319px;
+height: 86px;
+
+}
+
+#button-styles {
+background: #FCA311;
+border-radius: 20px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 36.5714px;
+line-height: 43px;
+color: #14213D;
+}

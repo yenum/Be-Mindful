@@ -1,22 +1,23 @@
 import React from 'react'
 import ideaflow from '../../images/Ideaflow.png'
+import './Homepage.css'
 
 const Homepage = () => {
   return (
-    <div style={{display:'flex'}}>
-        <div style={{width:'60%'}}>
-            <div>
-                <p>Idea Pad</p>
-                <p>Keep your brilliant ideas in one place</p>
+    <div className='container'>
+        <div className='inner-container'>
+            <div className='splash-message'>
+                <p className='title'>Idea Pad</p>
+                <p className='description'>Keep your brilliant ideas in one place</p>
                 <div>
-                    <button>Sign Up</button>
-                    <button>Sign In</button>
+                    <button className='signup' id='button-styles'>Sign Up</button>
+                    <button className='signin' id='button-styles'>Sign In</button>
                 </div>
 
             </div>
         </div>
-        <div style={{width:'40%'}}>
-            <img src= {ideaflow} alt='ideas flowing'/>
+        <div style={{width:'40%', display:'flex'}}>
+            <img className='ideaimage'src= {ideaflow} alt='ideas flowing'/>
         </div>
         
     </div>

@@ -33,7 +33,6 @@ test('renders a sign up and sign in button', () => {
 })
 
 
-
 test('renders a button that reads sign in', () => {
     render(<Homepage/>)
     const signinButtonText = screen.getByText(/Sign In/i)
