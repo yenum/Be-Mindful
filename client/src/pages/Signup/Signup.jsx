@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ideas from '../../images/Ideas.png'
 import './Signup.css'
 
 
 const Signup = () => {
+  const [errMessage, seterrMessage] = useState(false)
+  const [username, setUsername] = useState('')
+  const [emailAddress, setEmailAdress] = useState('')
+  const [password, setPassword] = useState('')
+
   return (
     <div className='container2'>
        <div className='inner-container2'>
@@ -11,11 +16,12 @@ const Signup = () => {
           <p className='signup-title'>Sign Up</p>
         <form className='form-input'>
             
-                <input placeholder="username" />
-                <input placeholder="email address" />
-                <input placeholder="password" />
+                <input placeholder="username" value={username} onChange={(e) => setUsername(e.target.value)}/>
+                <input placeholder="email address" value={emailAddress} onChange={(e) => setEmailAdress(e.target.value)} />
+                <input placeholder="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
            
-           <button> Sign Up </button>
+           <button disabled={!username|| !emailAddress|| !password}> Sign Up </button>
+           <span data-testid='error' style={{color:'red', visibility: errMessage ? 'visible' : 'hidden'}} >Something went wrong</span>
         </form> 
 
     </div>
