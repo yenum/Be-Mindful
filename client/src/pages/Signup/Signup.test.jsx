@@ -38,3 +38,21 @@ test('renders a sign up button', () => {
     expect(signupButton).toBeInTheDocument()
     
 })
+
+test('password field should be empty', () => {
+    render (<Signup/>)
+    const passwordText = screen.getByPlaceholderText(/password/i)
+    expect(passwordText.value).toBe("")
+})
+
+test('email address field should be empty', () => {
+    render (<Signup/>)
+    const emailText = screen.getByPlaceholderText(/email address/i)
+    expect(emailText.value).toBe("")
+})
+
+test('username field should be empty', () => {
+    render (<Signup/>)
+    const usernameText = screen.getByPlaceholderText(/username/i)
+    expect(usernameText.value).toBe("")
+})

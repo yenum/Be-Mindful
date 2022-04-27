@@ -27,6 +27,18 @@ test('renders password input field', () => {
     expect(passwordText).toBeInTheDocument()
 })
 
+test('password field should be empty', () => {
+    render (<Signin/>)
+    const passwordText = screen.getByPlaceholderText(/password/i)
+    expect(passwordText.value).toBe("")
+})
+
+test('email address field should be empty', () => {
+    render (<Signin/>)
+    const emailText = screen.getByPlaceholderText(/email address/i)
+    expect(emailText.value).toBe("")
+})
+
 test('renders a sign up button', () => {
     render(<Signin/>)
     const signinButton = screen.getByRole('button')

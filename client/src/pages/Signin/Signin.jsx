@@ -9,8 +9,8 @@ const Signin = () => {
     <div className='form-section'>
           <p className='signin-title'>Sign In</p>
         <form className='form-input'>
-                <input placeholder="email address" />
-                <input placeholder="password" />
+                <input type='text' placeholder="email address" />
+                <input type='password' placeholder="password" />
            <button> Sign In </button>
         </form> 
 
