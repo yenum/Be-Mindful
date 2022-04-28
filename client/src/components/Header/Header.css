@@ -1,0 +1,9 @@
+.header{
+    
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Raleway;
+    align-content: center;
+    justify-content: space-between;
+}
