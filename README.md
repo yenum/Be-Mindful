@@ -43,5 +43,5 @@ With your database now connected to your application, run `npm start` to start t
 Your REST API is now ready to use.
 Goodluck and happy coding!
 
-Additional reading: 
-[Connect to MongoDB via your application] https://www.mongodb.com/docs/atlas/driver-connection/?tck=docs_driver_nodejs
+Additional reading:  
+[https://www.mongodb.com/docs/atlas/driver-connection/?tck=docs_driver_nodejs]
