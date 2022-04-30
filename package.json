@@ -1,7 +1,7 @@
 {
-  "name": "bemindful",
+  "name": "rest-api",
   "version": "1.0.0",
-  "description": "A digital app that allows users record their thoughts easily on the go",
+  "description": "Node js REST API built with Express, MongoDB and JSON web token",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server/server.js"
