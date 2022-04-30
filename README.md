@@ -26,7 +26,7 @@ This project can be used in full stack projects/applications with CRUD (Create, 
 
 ### To begin with this project: 
 1. Clone this repository by running the following command in your terminal `git clone <url>`
-2. Run the following command `npm i mongoose express cors colors dotenv nodemon jsonwebtoken bcryptjs`. These are the dependencies that are needed to run this applicaton on the server side.
+2. Run the following command `npm i mongoose express express-async-handler cors colors dotenv nodemon jsonwebtoken bcryptjs`. These are the dependencies that are needed to run this applicaton on the server side.
 3. Once the dependcies are installed, create  a .env file  
 4. Your .env should have a variable with a port number value, a JWT_SECRET variable with a value which you get to choose yourself and a MONGO_URI variable which will hold the URI taken from the MongoDB cluster you will will create.
 5. Connect your application to your mongoDB database 
