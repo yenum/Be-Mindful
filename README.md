@@ -14,8 +14,13 @@ This project can be used in full stack projects/applications with CRUD (Create, 
 
 
 How to use this project
-To use this project, you will need to have the following - latest version of Node.js  - Postman installed on your machine to test your APIs and make sure it is working properly before connecting to the frontend  - MongoDB account.
-To begin with this project, clone this repository by running the following command in your terminal git clone <url>
-Next run the following command npm i mongoose express cors colors dotenv nodemon jsonwebtoken bcryptjs. These are the dependencies that are needed to run this applicaton on the server side.
-Once the dependcies are installed, create .env and .gitignore files. Your .gitignore file should have the following lines of code and .env should have the following lines of code.
+
+To use this project, you will need to have the following
+- latest version of Node.js  
+- Postman installed on your machine to test your APIs and make sure it is working properly before connecting to the frontend  
+- MongoDB account.
+To begin with this project, 
+-clone this repository by running the following command in your terminal `git clone <url>`
+-Next run the following command `npm i mongoose express cors colors dotenv nodemon jsonwebtoken bcryptjs`. These are the dependencies that are needed to run this applicaton on the server side.
+-Once the dependcies are installed, create .env and .gitignore files. Your .gitignore file should have the following lines of code and .env should have the following lines of code.
 Connect your application to your mongoDB database 
